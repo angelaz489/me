@@ -1,0 +1,136 @@
+:root {
+    /* --clr-proj: #97B9D7; */
+    /* --clr-proj: #72A0C9; */
+    --clr-proj: #6094C2;
+}
+
+.proj-link:hover {
+  color: var(--clr-proj);
+}
+
+.proj-clr-container {
+  background: var(--clr-proj);
+  opacity: .9;
+  /* background: var(--clr-accent1); */
+}
+
+mark {
+  background-color: var(--clr-proj);
+  color: var(--clr-bg);
+}
+
+.quote {
+  /* color: var(--clr-proj); */
+  text-align: center;
+}
+
+.back-button a {
+  color: var(--clr-proj);
+}
+.back-button a:hover {
+  background-color: var(--clr-proj);
+}
+
+.ddi-prob-content {
+  padding-bottom: 5vw;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-weight: var(--fw-bold);
+  color: var(--clr-proj);
+}
+
+.ddi-challenge-list ul {
+  padding: 0 13vw;
+}
+.ddi-challenge-list li {
+  font-weight: var(--fw-bold);
+}
+
+.ddi2-challenge-content {
+  float: left;
+  width: 50%
+}
+.ddi-challenge-list {
+  width: 80%;
+  float: right;
+  margin: auto;
+}
+
+
+.ddi-ideation-list ul {
+  padding: 0 13vw;
+}
+.ddi-ideation-list li {
+  font-weight: var(--fw-bold);
+}
+
+.ddi2-ideation-content {
+  float: left;
+  width: 40%
+}
+.ddi-ideation-list {
+  /* width: 50%; */
+  padding-left: 10vw;
+  float: right;
+  margin: auto;
+}
+
+.ddi2-poll-img, .ddi2-persona-img, .ddi2-finding-img, .ddi2-currflow-img, .ddi2-newflow-img {
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.ddi2-iteration-img2, .ddi2-iteration-img3 {
+  padding-top: 10vw;
+}
+
+.final-word .proj-link {
+  color: var(--clr-bg);
+}
+
+.final-word .proj-link:hover {
+  color: var(--clr-dark);
+}
+
+.ddi-wid ul {
+  padding: 0 13vw;
+  /* margin: auto; */
+}
+.ddi-wid li {
+  padding-bottom: 3vw;
+}
+
+@media (max-width: 768px) {
+  .ddi2-challlenge .flex-container {
+    display: inline-block;
+  }
+
+  .ddi2-challenge-content {
+    width: 100%;
+    padding-bottom: 7vw;
+  }
+  .ddi-challenge-list {
+    width: 100%;
+    padding-left: 10vw;
+  }
+
+  .ddi2-poll-img, .ddi2-persona-img, .ddi2-finding-img, .ddi2-currflow-img, .ddi2-newflow-img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  .ddi2-ideation .flex-container {
+    display: inline-block;
+  }
+
+  .ddi2-ideation-content {
+    width: 100%;
+    padding-bottom: 7vw;
+  }
+  .ddi-ideation-list {
+    float: left;
+  }
+}

@@ -1,0 +1,131 @@
+:root {
+    --clr-proj: #4267B2;
+}
+
+.proj-link:hover {
+  color: var(--clr-proj);
+}
+
+.proj-clr-container {
+  background: var(--clr-proj);
+  opacity: .9;
+  /* background: var(--clr-accent1); */
+}
+
+.grid-container-2x2 {
+  display: grid;
+  grid-template-columns: 25% 65%;
+}
+
+
+.back-button a {
+  color: var(--clr-proj);
+}
+.back-button a:hover {
+  background-color: var(--clr-proj);
+}
+
+
+
+/* FACEBOOK MESSENGER */
+.fbm-challenge-title {
+  grid-area: s1;
+}
+.fbm-challenge-content {
+  grid-area: s2;
+  font-weight: var(--fw-bold);
+}
+.fbm-deliverable-title {
+  grid-area: s3;
+}
+.fbm-deliverable-content {
+  grid-area: s4;
+  font-weight: var(--fw-bold);
+}
+.fbm-bg-sub-title {
+  padding-top: 7vw;
+  padding-bottom: 5vw;
+  text-align: center;
+}
+.fbm-bg-list-content {
+  list-style-type: none;
+  padding-right: 3vw;
+  width: 33%;
+  padding-bottom: 0;
+  text-align: center;
+}
+.fbm-bg-list-content strong {
+  color: var(--clr-proj2);
+}
+.fbm-research-content {
+  width: 50%;
+  float: left;
+  padding-right: 5vw;
+}
+.fbm-research-img {
+  width: 50%;
+  float: right;
+}
+.fbm-research-img img {
+  border-radius: 10px;
+}
+.fbm-problems-list li {
+  padding-left: 1.5vw;
+}
+.list-space {
+  padding-bottom: 5vw;
+}
+.fbm-ft-list {
+  padding-top: 3vw;
+}
+.fbm-ft-list-content {
+  width: 33%;
+  padding-right: 3vw;
+  /* list-style-type: none; */
+}
+.fbm-ca-title {
+  padding: 5vw 0 3vw 0;
+}
+.fbm-ca-list {
+  width: 50%;
+  float: left;
+  /* display: block; */
+  padding-right: 3vw;
+}
+.fbm-ca-img {
+  width: 50%;
+  float: right;
+  border-radius: 30px;
+}
+.fbm-ca-img img {
+  border-radius: 30px;
+}
+.fbm-ca-list .list-space {
+  padding-bottom: 2vw;
+}
+.fbm-ca-img-last {
+  display: block;
+  width: 60%;
+  margin: auto;
+  padding-top: 10vw;
+  border-radius: 10px;
+}
+
+.fbm-si-fig {
+  width: 50%;
+  /* float: right; */
+}
+.fbm-redesign-list-content {
+  font-weight: var(--fw-bold);
+  padding-bottom: 3vw;
+}
+.fbm-redesign-content {
+  padding-bottom: 3vw;
+}
+.img-space {
+  padding-bottom: 5vw;
+}
+.img-size {
+  width: 70%;
+  margin: auto;
+}

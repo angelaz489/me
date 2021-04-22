@@ -1,0 +1,64 @@
+:root {
+    --clr-proj: #4EAD00;
+}
+
+.proj-link:hover {
+  color: var(--clr-proj);
+}
+
+.proj-clr-container {
+  background: var(--clr-proj);
+  opacity: .9;
+  /* background: var(--clr-accent1); */
+  /* color: var(--clr-dark); */
+  color: var(--clr-bg);
+}
+
+.grid-container-2x2 {
+  display: grid;
+  grid-template-columns: 25% 65%;
+}
+
+.back-button a {
+  color: var(--clr-proj);
+}
+.back-button a:hover {
+  background-color: var(--clr-proj);
+}
+
+
+/* FLIXBUS */
+.flix-research-list-content {
+  padding-top: 2vw;
+}
+.flix-findings-content {
+  font-weight: var(--fw-bold);
+  color: var(--clr-proj3);
+  /* text-align: center; */
+}
+.flix-findings-content-sub {
+  padding: 5vw 0;
+}
+.flix-findings-fig1 {
+  width: 50%;
+  float: left;
+}
+.flix-findings-fig2 {
+  width: 50%;
+  float: right;
+}
+.flix-redesign-content {
+  padding-bottom: 5vw;
+}
+.flix-redesign p {
+  font-weight: var(--fw-bold);
+}
+.flix-redesign-content-sub {
+  padding-bottom: 3vw;
+}
+.title-space {
+  padding-top: 5vw;
+}
+.flix-prototype-content{
+  padding-bottom: 5vw;
+}

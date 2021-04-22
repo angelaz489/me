@@ -1,0 +1,27 @@
+:root {
+    --clr-proj: #999999;
+}
+
+.proj-link:hover {
+  color: var(--clr-proj);
+}
+
+.proj-clr-container {
+  background: var(--clr-proj);
+  opacity: .9;
+  /* background: var(--clr-accent1); */
+  /* color: var(--clr-dark); */
+  color: var(--clr-bg);
+}
+
+.grid-container-2x2 {
+  display: grid;
+  grid-template-columns: 25% 65%;
+}
+
+.back-button a {
+  color: var(--clr-proj);
+}
+.back-button a:hover {
+  background-color: var(--clr-proj);
+}

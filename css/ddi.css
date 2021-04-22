@@ -1,0 +1,73 @@
+:root {
+    --clr-proj: #7EB050;
+}
+
+.proj-link:hover {
+  color: var(--clr-proj);
+}
+
+.proj-clr-container {
+  background: var(--clr-proj);
+  opacity: .9;
+  /* background: var(--clr-accent1); */
+}
+
+mark {
+  background-color: var(--clr-proj);
+  color: var(--clr-bg);
+}
+.ddi-prob-content{
+  color: var(--clr-proj);
+}
+
+.quote {
+  /* color: var(--clr-proj); */
+  text-align: center;
+}
+
+.back-button a {
+  color: var(--clr-proj);
+}
+.back-button a:hover {
+  background-color: var(--clr-proj);
+}
+
+
+/* DDI */
+.ddi-bg-content {
+  float: left;
+  padding-right: 10vw;
+  width: 65%
+}
+.ddi-cgm-img {
+  width: 35%;
+  background: var(--clr-bg);
+  border-radius: 50px;
+  float: right;
+  margin: auto;
+}
+.ddi-cgm-img img {
+  width: 100%;
+  margin: auto;
+}
+.ddi-prob-content {
+  padding-bottom: 5vw;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-weight: var(--fw-bold);
+}
+.ddi-prob-content-sub {
+  width: 50%;
+}
+.ddi-prob-content-quote {
+  width: 50%;
+  padding-left: 3vw;
+}
+.ddi-wid ul {
+  padding: 0 13vw;
+  /* margin: auto; */
+}
+.ddi-wid li {
+  padding-bottom: 3vw;
+}
