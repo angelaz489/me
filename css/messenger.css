@@ -75,6 +75,10 @@
 .list-space {
   padding-bottom: 5vw;
 }
+.fbm-ft-img {
+  width: 70%;
+  float: none;
+}
 .fbm-ft-list {
   padding-top: 3vw;
 }
