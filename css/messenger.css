@@ -77,7 +77,8 @@
 }
 .fbm-ft-img {
   width: 70%;
-  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .fbm-ft-list {
   padding-top: 3vw;
